@@ -1,0 +1,27 @@
+.TodoAlert{
+    background-color: white;
+    padding: 20px 30px;
+    width: 300px;
+    
+}
+
+.TodoAlert p{
+    font-size: 22px;
+    color: black;
+}
+
+ .TodoAlert .button-container {
+        display: flex;
+        justify-content: flex-end;
+      }
+    
+
+.TodoAlert div button{
+    
+    border: none;
+    background-color: white;
+    color: #5ebb74;
+    font-weight: bold;
+    cursor: pointer;
+   
+}

@@ -1,0 +1,26 @@
+.TodoDiv{
+    background-color: white;
+    padding: 20px 30px;
+    width: 300px;
+
+}
+
+.TodoDiv p{
+    font-size: 15px;
+    color: black;
+}
+
+.TodoDiv-buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.TodoDiv-button{
+    border: none;
+    background-color: white;
+    color: #5ebb74;
+    font-weight: bold;
+    cursor: pointer;
+}

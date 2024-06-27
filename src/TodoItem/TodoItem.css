@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Para centrar horizontalmente */
+}
+
+.TodoItem {
+    background-color: #fafafa;
+    position: relative;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0 5px 50px rgba(32,35,41,.15);
+    padding: 16px; /* Añadir padding para evitar que el contenido se solape */
+}
+
+li div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px; /* Ajustar margen para espacio de los iconos */
+}
+
+.TodoItem-p {
+    margin: 0 0 8px 0; /* Añadir margen inferior para espacio entre textos */
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.TodoNote-p {
+    margin: 0; /* Asegurarse de que no haya margen superior para pegarse al de arriba */
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+

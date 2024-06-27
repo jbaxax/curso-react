@@ -1,0 +1,11 @@
+.TodoSearch{   
+    display: flex; 
+    justify-content: center;
+
+}
+
+.TodoSearch input{
+    
+    padding: 16px;
+    height: 2vh;
+}

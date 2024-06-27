@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos envuelvan si es necesario */
+    
+    box-shadow: -1px 0px 196px -22px rgba(0,0,0,0.49);
+-webkit-box-shadow: -1px 0px 196px -22px rgba(0,0,0,0.49);
+-moz-box-shadow: -1px 0px 196px -22px rgba(0,0,0,0.49);    
+
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Permitir que el div se ajuste dentro del formulario */
+
+   
+}
+
+form div input {
+    width: 100%; /* Hacer que los inputs ocupen el 100% del ancho del contenedor */
+    box-sizing: border-box; /* Incluir el padding y borde dentro del ancho total */
+    height: 5vh;
+    border: none;
+    outline: none;
+    padding: 16px;
+}
+
+.task::placeholder{
+    color: #615EFC;
+}
+
+form div .note{
+    background-color: #EEEEEE;
+}
+
+form button {
+    flex-shrink: 0; 
+    color: #615EFC;
+    border: 1px solid #EEEEEE;
+    background-color: white;
+    cursor: pointer;
+    height: 10vh;
+}
