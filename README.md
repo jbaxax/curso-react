@@ -23,7 +23,7 @@ Este proyecto es una aplicación de gestión de tareas (TODOs) creada con React.
 1. Clona el repositorio:
 
     ```sh
-    git clone https://github.com/tuusuario/curso-react.git
+    git clone https://github.com/jbaxax/curso-react.git
     ```
 
 2. Navega al directorio del proyecto:
@@ -43,8 +43,6 @@ Este proyecto es una aplicación de gestión de tareas (TODOs) creada con React.
     ```sh
     npm start
     ```
-
-La aplicación estará disponible en `http://localhost:3000`.
 
 ## Uso
 
